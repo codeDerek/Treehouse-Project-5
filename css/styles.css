@@ -315,6 +315,15 @@ img {
   width: 170px;
   padding: 20px; }
 
+.lightbox img {
+  padding: 0; }
+
+.lightbox .lb-image {
+  border: none; }
+
+.lb-outerContainer {
+  background-color: none; }
+
 .search-bar {
   display: flex;
   margin: auto;
