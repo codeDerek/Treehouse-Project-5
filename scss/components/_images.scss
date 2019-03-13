@@ -26,13 +26,15 @@ padding: 20px;
 }
 
 .lb-data .lb-details {
-
+margin-left: 4em;
+margin-right: 4em;
+line-height: 1.5em;
 }
 
-.lb-data .lb-caption {
-
+.lb-data .lb-number {
+// Investigate trying to hide the page number in the slide showidisplay: none;
 }
 
 .lb-dataContainer {
-
+padding-top: 30px;
 }

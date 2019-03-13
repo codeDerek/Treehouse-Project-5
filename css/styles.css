@@ -324,6 +324,14 @@ img {
 .lb-outerContainer {
   background-color: none; }
 
+.lb-data .lb-details {
+  margin-left: 4em;
+  margin-right: 4em;
+  line-height: 1.5em; }
+
+.lb-dataContainer {
+  padding-top: 30px; }
+
 .search-bar {
   display: flex;
   margin: auto;
