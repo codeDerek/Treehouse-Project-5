@@ -1,13 +1,22 @@
-#search {
-  display: flex;
+#searchBar {
+display: flex;
 margin: auto;
   border-style: solid;
-
   border-color: rgba(213,213,213,.8);
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  width: 35%;
+  padding-right: 10px;
+  margin-left: 25%;
+  width: 50%;
+@media (min-width: 768px) {
+  margin: auto;
+}
+@media (min-width: 828px)
+{
+  width: 60%;
+margin-left: 22%;
+}
 }

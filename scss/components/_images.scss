@@ -4,13 +4,16 @@
   flex-basis: auto;
   justify-content:  space-around;
   margin: 10px 10%;
+    list-style: none;
 }
+
 
 img {
   height: 170px;
   width: 170px;
 padding: 20px;
 }
+
 
 
 .lightbox img {
@@ -31,9 +34,6 @@ margin-right: 4em;
 line-height: 1.5em;
 }
 
-.lb-data .lb-number {
-// Investigate trying to hide the page number in the slide showidisplay: none;
-}
 
 .lb-dataContainer {
 padding-top: 30px;
