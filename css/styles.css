@@ -332,7 +332,7 @@ img {
 .lb-dataContainer {
   padding-top: 30px; }
 
-.search-bar {
+#search {
   display: flex;
   margin: auto;
   border-style: solid;
