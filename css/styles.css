@@ -317,9 +317,13 @@ template {
   list-style: none; }
 
 img {
-  height: 170px;
-  width: 170px;
-  padding: 20px; }
+  height: 250px;
+  width: 250px; }
+  @media (min-width: 525px) {
+    img {
+      height: 170px;
+      width: 170px;
+      padding: 20px; } }
 
 .lightbox img {
   padding: 0; }

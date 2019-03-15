@@ -4,7 +4,6 @@
   flex-basis: auto;
   justify-content:  space-around;
   margin: 10px 10%;
-
 }
 
 #myImages {
@@ -13,9 +12,12 @@
 }
 
 img {
+  height: 250px;
+  width: 250px;
+  @include mq($small) {
   height: 170px;
   width: 170px;
-padding: 20px;
+padding: 20px;}
 }
 
 
