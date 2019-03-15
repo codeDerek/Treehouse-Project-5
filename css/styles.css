@@ -313,6 +313,9 @@ template {
   margin: 10px 10%;
   list-style: none; }
 
+#myImages {
+  padding-left: 0; }
+
 img {
   height: 170px;
   width: 170px;
@@ -336,6 +339,9 @@ img {
 .lb-dataContainer {
   padding-top: 30px; }
 
+.lb-data .lb-close {
+  display: none; }
+
 #searchBar {
   display: flex;
   margin: auto;
@@ -347,14 +353,18 @@ img {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 25%;
   width: 50%; }
-  @media (min-width: 768px) {
+  @media (min-width: 525px) {
     #searchBar {
-      margin: auto; } }
-  @media (min-width: 828px) {
+      margin: auto;
+      margin-top: 20px; } }
+  @media (min-width: 788px) {
     #searchBar {
-      width: 60%;
+      width: 50%;
       margin-left: 22%; } }
+  @media (min-width: 1050px) {
+    #searchBar {
+      width: 35%;
+      margin: auto; } }
 
 /*# sourceMappingURL=styles.css.map */

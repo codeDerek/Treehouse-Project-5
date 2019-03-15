@@ -12,7 +12,7 @@ searchBar.addEventListener( "keyup", function() {
 const input = document.getElementById('searchBar');
 const filter = input.value.toUpperCase();
 const ul = document.getElementById('myImages');
-const li = ul.getElementsByTagName('li');
+const li = ul.getElementsByTagName('a');
 
 //Loop through all list items, and hide those who don't match the search query
 for (i = 0; i < li.length; i += 1) {

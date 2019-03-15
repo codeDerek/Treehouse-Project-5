@@ -7,6 +7,9 @@
     list-style: none;
 }
 
+#myImages {
+  padding-left: 0;
+}
 
 img {
   height: 170px;
@@ -38,4 +41,8 @@ text-align: center;
 
 .lb-dataContainer {
 padding-top: 30px;
+}
+
+.lb-data .lb-close {
+  display: none;
 }

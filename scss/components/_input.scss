@@ -9,14 +9,18 @@ margin: auto;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 25%;
+
   width: 50%;
-@media (min-width: 768px) {
+@include mq($small){
   margin: auto;
+  margin-top: 20px;
 }
-@media (min-width: 828px)
-{
-  width: 60%;
+@include mq($large){
+  width: 50%;
 margin-left: 22%;
+}
+@include mq($xlarge){
+  width: 35%;
+  margin: auto;
 }
 }
