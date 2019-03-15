@@ -167,7 +167,7 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1em;
   font-family: 'Amatic SC', cursive;
@@ -205,4 +205,10 @@ html.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+@media (min-width: 525px) {
+  .lb-data .lb-caption {
+    font-size: 20px;
+  }
 }

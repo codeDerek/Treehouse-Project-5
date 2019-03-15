@@ -331,8 +331,8 @@ img {
   background-color: none; }
 
 .lb-data .lb-details {
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 3em;
+  margin-right: auto;
   line-height: 1.5em;
   text-align: center; }
 
